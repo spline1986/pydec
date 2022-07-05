@@ -8,10 +8,10 @@ from base64 import b64encode, b64decode
 from collections.abc import Collection
 from typing import List, Optional, Set, Tuple
 
-from exceptions import AreaNameError, MsgIdError
-from message import Message
-from multipartform import MultiPartForm
-from idec_types import *
+from .exceptions import AreaNameError, MsgIdError
+from .message import Message
+from .multipartform import MultiPartForm
+from .idec_types import *
 
 
 class Uplink:
