@@ -11,7 +11,7 @@ from typing import List, Optional, Set, Tuple
 from .exceptions import AreaNameError, MsgIdError
 from .message import Message
 from .multipartform import MultiPartForm
-from .idec_types import *
+from .types import *
 
 
 class Uplink:
